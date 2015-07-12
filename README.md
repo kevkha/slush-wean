@@ -61,6 +61,12 @@ $ gulp build --linux64
 To build for all platforms run
 
 ```bash
+$ gulp build --all
+```
+
+To build for current platform run
+
+```bash
 $ gulp build
 ```
 
