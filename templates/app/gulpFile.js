@@ -1,11 +1,11 @@
 var gulp = require('gulp')
 var shell = require('gulp-shell')
 
-var NodeWebkitBuilder = require('node-webkit-builder');
+var NodeWebkitBuilder = require('nw-builder');
 
 // Run project
 gulp.task('run', shell.task([
-    'node node_modules/node-webkit-builder/bin/nwbuild -r ./'
+    'node node_modules/nw-builder/bin/nwbuild -r ./'
 ]));
 
 gulp.task('build', function(cb) {
